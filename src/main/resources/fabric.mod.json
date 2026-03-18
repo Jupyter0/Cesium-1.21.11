@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "cesium",
+	"version": "1.0.0",
+	"name": "Cesium",
+	"description": "Performance mod designed to optimize rendering process",
+	"authors": [
+		"Jupyter"
+	],
+	"contact": {
+		"homepage": "https://github.com/Jupyter0",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cesium/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jupyter.cesium.Cesium"
+		],
+		"fabric-datagen": [
+			"net.jupyter.cesium.CesiumDataGenerator"
+		],
+		"client": [
+			"net.jupyter.cesium.CesiumClient"
+		]
+	},
+	"mixins": [
+		"cesium.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
