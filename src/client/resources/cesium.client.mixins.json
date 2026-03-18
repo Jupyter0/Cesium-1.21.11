@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.jupyter.cesium.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BlockCullingMixin",
+    "EntityCullingMixin",
+    "GreedyMeshingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/Jupyter0",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Jupyter0/Cesium-1.21.11"
 	},
 	"license": "MIT",
 	"icon": "assets/cesium/icon.png",
@@ -27,6 +27,9 @@
 	},
 	"mixins": [
 		"cesium.mixins.json"
+	],
+	"client": [
+		"cesium.client.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
